@@ -1,0 +1,10 @@
+print("hellow world")
+##
+##
+import time
+from plyer import notification
+if __name__=="__main__":
+    while True:
+        notification.notify(title="ALERT!!!",message="take break!! IT has been hour",
+        app_icon="D:\\omkar\\py.1\\Graphicloads-100-Flat-Clock.ico",timeout=10,)
+        time.sleep(1000)
